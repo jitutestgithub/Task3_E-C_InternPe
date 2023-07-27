@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page || E-commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+
+
+    <!-- --------------------------Navbar section-------------------------- -->
+
+
+
+    <div class="container">
+
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="cart.png" width="30px" height="30px">
+            <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ---------------------Contact Page----------- -->
+
+    <div class="about-page">
+
+        <div class="conatiner">
+            <div class="row">
+                <div class="col-2">
+                    <img src="image1.png" width="100%">
+                </div>
+
+
+                <div class="container2">
+                    <div class="col-2">
+                        <div id="cu">
+                            <h3>About Us</h3>
+                            <br> <br>
+
+                        </div>
+
+                        <div>
+                            <h4> <b>Welcome to RedStore: Elevate Your Sporting Experience.</b> </h4>
+                            <br>
+                            <p>
+                                At RedStore, we're more than just a sports ecommerce website – we're a community of athletes, fitness enthusiasts, and champions at heart. Our passion for sports drives us to provide you with the finest selection of sports gear and equipment, carefully
+                                curated to fuel your victories and enhance your performance.
+                            </p>
+
+                            <p>
+                                With a focus on quality and innovation, we partner with leading sports brands to bring you cutting-edge products that excel in both style and functionality. From high-performance footwear to top-of-the-line sports apparel and equipment, we've got everything
+                                you need to take your game to the next level.
+                                <br> Our commitment to outstanding customer service means that your satisfaction is our priority. We're here to support you throughout your journey, ensuring that you find the perfect gear tailored to your needs.
+                                <br> Join the RedStore community today, where passion meets performance. Unleash your true potential and conquer every challenge with confidence. Welcome to RedStore – Your Winning Edge!
+                            </p>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+    <div class="footer">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios</p>
+                    <div class="app-logo">
+                        <img src="play-store.png" alt="">
+                        <img src="app-store.png" alt="">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="logo-white.png">
+                    <p>"Empowering athletes worldwide with top-tier sports gear and exceptional service - RedStore, Your Winning Advantage!"</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Usefull Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Posts</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+            <p class="copyright">© 2023 RedStore | All Rights Reserved</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ------------------------- JS Section -------------  -->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
